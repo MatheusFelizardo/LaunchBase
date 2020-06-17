@@ -1,0 +1,131 @@
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background: #8442ee;
+    
+}
+
+
+header {
+    padding: 30px;
+    background:  #8442ee;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 3px solid #51db68;
+}
+
+header a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    
+    /* targer="_blank" o link abre em outra pagina */
+}
+
+header a:hover {
+    color: #51db68;
+    transition: 300ms;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 1pt;
+}
+
+#textos {
+    margin-left: 200px;
+}
+
+main hr {
+  
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 10px auto 0;
+    color: #51db68;
+}
+
+main img {
+    background-color: #8442ee;
+    width: 100px;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 20%;
+    border: 5px solid #51db68;
+}
+
+#img { 
+    background: url("/Desafio2/melhores-tecnologias.svg");
+    background-color: white;
+    color: white;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 35%;
+}
+
+main h1 { 
+    color: #8442ee;
+    
+}
+
+main h3 {
+    text-align: left;
+    color: #5a5a5a;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+main p { 
+    font-size: 18px;
+    color: #8442ee;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px 10px 10px;
+}
+
+main ul {
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 0 10px 10px 10p
+
+}
+
+main ul li {
+    margin-left: 30px;
+    padding: 4px;
+    list-style-type: circle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #8442ee;
+    font-weight: 700;
+    
+}
+
+#footer {
+    font-weight: bold;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
